@@ -1,0 +1,98 @@
+{"page":1,"comment":"----------  ----------"}
+{"id":1,"obj":"img","src":"L:/bg_blue.png","auto_size":0,"w":480}
+
+{"page":2,"comment":"---------- Climate ----------"}
+{"id":1,"obj":"img","src":"L:/bg_blue.png","auto_size":0,"w":480}
+{"id":100,"obj":"label","x":80,"y":0,"h":36,"w":320,"align":"center","text":"Климат","enabled":true,"hidden":false,"text_font":24}
+
+{"id":20,"obj":"label","x":210,"y":40,"w":60,"h":24,"text":"#E0E0E0 \u2022# #9999CC \u2022# #9999CC \u2022#","text_font":30,"align":"center","text_color":"grey","border_width":0}
+
+{"id":30,"obj":"tabview","x":0,"y":40,"w":480,"h":390,"btn_pos":0,"bg_opa":0,"border_width":0,"radius":0}
+{"id":31,"obj":"tab","parentid":30}
+{"id":32,"obj":"tab","parentid":30}
+{"id":33,"obj":"tab","parentid":30}
+
+{"id":91,"obj":"obj","x":20,"y":394,"w":140,"h":36,"click":0,"radius":6,"bg_opa":100}
+{"id":92,"obj":"label","x":20,"y":400,"w":140,"h":24,"text":"Спальня 23.1°C","text_font":18,"align":"center"}
+{"id":93,"obj":"obj","x":170,"y":394,"w":140,"h":36,"click":0,"radius":6,"bg_opa":100}
+{"id":94,"obj":"label","x":170,"y":400,"w":140,"h":24,"text":"Гостиная 22.4°C","text_font":18,"align":"center"}
+{"id":95,"obj":"obj","x":320,"y":394,"w":140,"h":36,"click":0,"radius":6,"bg_opa":100}
+{"id":96,"obj":"label","x":320,"y":400,"w":140,"h":24,"text":"Улица -6.7°C","text_font":18,"align":"center"}
+
+{"id":120,"parentid":31,"obj":"gauge","x":120,"y":115,"w":240,"h":240,"min":40,"max":320,"val":224,"format":1,"critical_value":280,"label_count":15,"line_count":29,"border_width":0,"pad_top":10,"pad_bottom":10,"pad_left":10,"pad_right":10,"value_str":"","text_font":12,"text_color":"#c0c0c0","bg_opa":0,"line_width10":1,"line_rounded10":1,"line_color":"#348feb","line_color60":"#348feb","scale_grad_color":"#eb4934","scale_grad_color60":"#eb4934","scale_end_color":"#eb4934","scale_end_color60":"#eb4934"}
+{"id":121,"parentid":31,"obj":"arc","x":100,"y":95,"w":280,"h":280,"min":40,"max":320,"val":240,"border_side":0,"type":0,"rotation":0,"start_angle":135,"end_angle":45,"adjustable":"true","line_width":24,"line_width10":24,"line_color10":"#ff6f22","bg_color20":"#f00000","bg_opa20":160,"bg_opa":0}
+{"id":122,"parentid":31,"obj":"obj","x":90,"y":90,"w":60,"h":60,"parentid":120,"click":0,"radius":30,"bg_color":"#0043B3","bg_grad_dir":0,"border_width":2,"border_opa":60}
+{"id":123,"obj":"label","x":90,"y":105,"w":60,"h":30,"parentid":120,"text":"25","text_font":26,"align":"center"}
+
+{"id":140,"obj":"label","x":40,"y":40,"w":155,"h":30,"parentid":31,"text":"\uE438 Отопление:","text_font":24,"align":"right"}
+{"id":141,"obj":"dropdown","x":200,"y":35,"w":225,"h":30,"parentid":31,"options":"heat_modes","direction":0,"radius":4,"bg_opa":100,"text_font":24,"val":2,"options":"Выключено\nДежурный 7\nДежурный 10-12\nКомфорт 20-22\n"}
+{"id":149,"obj":"label","x":100,"y":170,"w":40,"h":40,"parentid":120,"text":"#e00000 \uE238#","text_font":42,"align":"center"}
+
+{"id":150,"obj":"label","x":20,"y":40,"w":160,"h":30,"parentid":32,"text":"\uE01B Вентиляция:","text_font":24,"align":"right"}
+{"id":151,"obj":"dropdown","x":185,"y":35,"w":270,"h":30,"parentid":32,"options":"fan_modes","direction":0,"radius":4,"bg_opa":100,"text_font":24,"val":2,"options":"Выключено\nМинимальный режим\nКомфортный режим\nМаксимальный режим\n"}
+
+{"id":160,"obj":"label","x":30,"y":40,"w":185,"h":30,"parentid":33,"text":"\uE58C Горячая вода:","text_font":24,"align":"right"}
+{"id":161,"obj":"dropdown","x":220,"y":35,"w":205,"h":30,"parentid":33,"options":"water_modes","direction":0,"radius":4,"bg_opa":100,"text_font":24,"val":3,"options":"Выключено\n45°C\n50°C\n55°C\n60°C"}
+
+{"page":3,"comment":"---------- Doorbell entry ----------"}
+{"id":1,"obj":"img","src":"L:/bg_blue.png","auto_size":0,"w":480}
+{"id":50,"obj":"img","src":"L:/gate.png","x":0,"y":45,"auto_size":0,"zoom":254,"h":270,"w":480}
+{"id":100,"obj":"label","x":80,"y":0,"h":36,"w":320,"align":"center","text":"Калитка","text_color":"#FFFFFF","text_font":24}
+{"id":120,"obj":"label","x":20,"y":330,"h":30,"w":440,"align":"center","text":"Калитка закрыта","enabled":true,"hidden":false,"text_font":20}
+{"id":130,"obj":"btn","x":200,"y":365,"h":60,"w":80,"text":"\uE33E","toggle":true,"text_font":26}
+
+{"page":4,"comment":"---------- Gate entry ----------"}
+{"id":1,"obj":"img","src":"L:/bg_blue.png","auto_size":0,"w":480}
+{"id":50,"obj":"img","src":"L:/entry.png","x":-160,"y":-40,"auto_size":0,"zoom":152,"h":448,"w":800}
+{"id":100,"obj":"label","x":80,"y":0,"h":36,"w":320,"align":"center","text":"Откатные ворота","text_color":"#FFFFFF","text_font":24}
+{"id":110,"obj":"label","x":10,"y":330,"h":30,"w":460,"align":"center","text":"Ворота закрыты","enabled":true,"hidden":false,"text_font":20}
+{"id":121,"obj":"btn","x":100,"y":365,"w":80,"h":60,"toggle":false,"text":"\uE04D","text_font":36}
+{"id":122,"obj":"btn","x":200,"y":365,"w":80,"h":60,"toggle":false,"text":"\uE4DB","text_font":36}
+{"id":123,"obj":"btn","x":300,"y":365,"w":80,"h":60,"toggle":false,"text":"\uE054","text_font":36}
+
+{"page":5,"comment":"---------- Garage door ----------"}
+{"id":1,"obj":"img","src":"L:/bg_blue.png","auto_size":0,"w":480}
+{"id":50,"obj":"img","src":"L:/overview.png","x":-160,"y":-40,"auto_size":0,"zoom":152,"h":448,"w":800}
+{"id":100,"obj":"label","x":80,"y":0,"h":36,"w":320,"align":"center","text":"Гаражные ворота","enabled":true,"hidden":false,"text_font":24}
+{"id":110,"obj":"label","x":10,"y":325,"h":30,"w":460,"align":"center","text":"Гараж закрыт","enabled":true,"hidden":false,"text_font":20}
+{"id":121,"obj":"btn","x":100,"y":365,"w":80,"h":60,"toggle":false,"text":"\uE045","text_font":36}
+{"id":122,"obj":"btn","x":200,"y":365,"w":80,"h":60,"toggle":false,"text":"\uE4DB","text_font":36}
+{"id":123,"obj":"btn","x":300,"y":365,"w":80,"h":60,"toggle":false,"text":"\uE05D","text_font":36}
+
+{"page":6,"comment":"---------- Outdoor light ----------"}
+{"id":1,"obj":"img","src":"L:/bg_blue.png","auto_size":0,"w":480}
+{"id":100,"obj":"label","x":80,"y":0,"h":36,"w":320,"align":"center","text":"Уличное освещение","text_color":"#FFFFFF","text_font":24}
+{"id":81,"obj":"btn","x":20,"y":55,"w":210,"h":60,"text":"#008020 \uE12C# Включить все","text_font":24,"align":1}
+{"id":82,"obj":"btn","x":250,"y":55,"w":210,"h":60,"text":"#990000 \uE156# Выключить все","text_font":24,"align":1}
+{"id":101,"obj":"btn","x":20,"y":135,"w":440,"h":60,"toggle":true,"text":"#0043B3 \uF020# Фасадное освещение","text_font":28,"align":1}
+{"id":111,"obj":"btn","x":20,"y":210,"w":440,"h":60,"toggle":true,"text":"#0043B3 \uE335# Дежурный свет","text_font":28,"align":1}
+{"id":121,"obj":"btn","x":20,"y":285,"w":440,"h":60,"toggle":true,"text":"#0043B3 \uE6E8# Уличное освещение","text_font":28,"align":1}
+{"id":131,"obj":"btn","x":20,"y":360,"w":440,"h":60,"toggle":true,"text":"#0043B3 \uF2BA# Гирлянды/ель","text_font":28,"align":1}
+
+{"page":7,"comment":"----------  ----------"}
+{"id":1,"obj":"img","src":"L:/bg_blue.png","auto_size":0,"w":480}
+
+{"page":8,"comment":"----------  ----------"}
+{"id":1,"obj":"img","src":"L:/bg_blue.png","auto_size":0,"w":480}
+{"id":141,"obj":"switch","x":20,"y":40,"w":60,"h":32,"radius":25,"radius20":25}
+{"id":142,"obj":"label","x":87,"y":45,"w":160,"h":32,"text":"Тест","text_font":24}
+
+{"comment":"---------- All Pages ----------"}
+{"page":0,"id":0,"text_font":24,"bg_color":"#4A82E0","bg_grad_color":"#0043B3","bg_grad_dir":2}
+{"id":10,"obj":"btn","action":{"down":"run /online.cmd"},"x":4,"y":2,"h":32,"w":32,"text":"\uE5A9","align":"left","text_color":"#808080","bg_opa":0,"border_side":0,"text_font":24}
+{"id":11,"obj":"label","x":34,"y":0,"h":36,"w":80,"text":"","template":"%m/%d/%y","align":"left","text_color":"#CCCCCC","pad_top":7,"pad_left":4,"text_font":18}
+{"id":12,"obj":"label","x":370,"y":0,"h":36,"w":80,"text":"","template":"%H:%M:%S","align":"right","text_color":"#CCCCCC","pad_top":7,"pad_right":4,"text_font":18}
+{"id":18,"obj":"btn","action":{"down":"reboot"},"x":450,"y":2,"w":30,"h":32,"bg_opa":0,"text":"\uE425","text_color":"#cccccc","border_side":0,"text_font":28}
+{"id":19,"obj":"obj","x":30,"y":0,"h":40,"w":420,"opacity":0,"swipe":1}
+
+{"id":21,"obj":"btn","action":{"down":"run /p1.cmd"},"x":2,"y":440,"w":57,"h":38,"bg_color":"#2C3E50","text":"-","text_color":"#c0c0c0","radius":4,"border_side":9,"enabled":true,"text_font":32}
+{"id":22,"obj":"btn","action":{"down":"run /p2.cmd"},"x":61,"y":440,"w":58,"h":38,"bg_color":"#2C3E50","text":"\uE50F","text_color":"#c0c0c0","radius":4,"border_side":9,"text_font":28}
+{"id":23,"obj":"btn","action":{"down":"run /p3.cmd"},"x":121,"y":440,"w":58,"h":38,"bg_color":"#2C3E50","text":"\uF0AF","text_color":"#c0c0c0","radius":4,"border_side":9,"enabled":true,"text_font":32}
+{"id":24,"obj":"btn","action":{"down":"run /p4.cmd"},"x":181,"y":440,"w":58,"h":38,"bg_color":"#2C3E50","text":"\uF1DB","text_color":"#c0c0c0","radius":4,"border_side":9,"enabled":true,"text_font":26}
+{"id":25,"obj":"btn","action":{"down":"run /p5.cmd"},"x":241,"y":440,"w":58,"h":38,"bg_color":"#2C3E50","text":"\uF2D3","text_color":"#c0c0c0","radius":4,"border_side":9,"text_font":32}
+{"id":26,"obj":"btn","action":{"down":"run /p6.cmd"},"x":301,"y":440,"w":58,"h":38,"bg_color":"#2C3E50","text":"\uE6E8","text_color":"#c0c0c0","radius":4,"border_side":9,"text_font":28}
+{"id":27,"obj":"btn","action":{"down":"run /p7.cmd"},"x":361,"y":440,"w":58,"h":38,"bg_color":"#2C3E50","text":"-","text_color":"#c0c0c0","radius":4,"border_side":9,"text_font":28}
+{"id":28,"obj":"btn","action":{"down":"run /p8.cmd"},"x":421,"y":440,"w":57,"h":38,"bg_color":"#2C3E50","text":"-","text_color":"#c0c0c0","radius":4,"border_side":9,"text_font":28}
+
+{"page":1,"id":0,"prev":8}
+{"page":8,"id":0,"next":1}
