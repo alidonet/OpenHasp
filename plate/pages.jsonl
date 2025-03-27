@@ -86,7 +86,7 @@
 {"id":101,"obj":"btn","x":20,"y":135,"w":440,"h":60,"toggle":true,"text":"#0043B3 \uF020# Фасадное освещение","text_font":28,"align":1}
 {"id":111,"obj":"btn","x":20,"y":210,"w":440,"h":60,"toggle":true,"text":"#0043B3 \uE335# Дежурный свет","text_font":28,"align":1}
 {"id":121,"obj":"btn","x":20,"y":285,"w":440,"h":60,"toggle":true,"text":"#0043B3 \uE6E8# Уличное освещение","text_font":28,"align":1}
-{"id":131,"obj":"btn","x":20,"y":360,"w":440,"h":60,"toggle":true,"text":"#0043B3 \uF2BA# Гирлянды","text_font":28,"align":1}
+{"id":131,"obj":"btn","x":20,"y":360,"w":440,"h":60,"toggle":true,"text":"#999999 \uF2BA# Гирлянды","text_font":28,"align":1,"enabled":0}
 
 
 {"page":8,"comment":"----------  ----------"}
@@ -97,8 +97,11 @@
 {"page":0,"id":0,"text_font":24,"bg_color":"#4A82E0","bg_grad_color":"#0043B3","bg_grad_dir":2}
 {"id":10,"obj":"btn","action":{"down":"run /online.cmd"},"x":2,"y":2,"h":32,"w":30,"text":"\uE5A9","align":"left","text_color":"#808080","bg_opa":0,"border_side":0,"text_font":24}
 {"id":11,"obj":"btn","action":{"down":"run /online.cmd"},"x":30,"y":2,"h":32,"w":30,"text":"\uE456","align":"center","text_color":"#808080","bg_opa":0,"border_side":0,"text_font":24}
-{"id":14,"obj":"label","x":60,"y":0,"h":36,"w":60,"text":"","template":"%m.%d","align":"left","text_color":"#CCCCCC","pad_top":7,"text_font":18}
-{"id":15,"obj":"label","x":384,"y":0,"h":36,"w":60,"text":"","template":"%H:%M","align":"right","text_color":"#CCCCCC","pad_top":7,"pad_right":4,"text_font":18}
+{"id":12,"obj":"spinner","x":160,"y":140,"w":160,"h":160,"bg_opa":150,"line_color":"#348feb","line_width10":8,"type":1,"speed":1200,"pad_top":12, "pad_bottom":12,"pad_left":12,"pad_right":12,"hidden":1}
+{"id":14,"obj":"label","x":60,"y":0,"h":36,"w":90,"text":"","template":"","align":"left","text_color":"#CCCCCC","pad_top":7,"text_font":18}
+{"id":15,"obj":"label","x":354,"y":0,"h":36,"w":90,"text":"","template":"","align":"right","text_color":"#CCCCCC","pad_top":7,"pad_right":4,"text_font":18}
+{"id":16,"obj":"label","x":60,"y":0,"h":36,"w":60,"text":"","template":"%m.%d","align":"left","text_color":"#CCCCCC","pad_top":7,"text_font":18,"hidden":1}
+{"id":17,"obj":"label","x":384,"y":0,"h":36,"w":60,"text":"","template":"%H:%M","align":"right","text_color":"#CCCCCC","pad_top":7,"pad_right":4,"text_font":18,"hidden":1}
 {"id":18,"obj":"btn","action":{"down":"reboot"},"x":448,"y":3,"w":30,"h":30,"bg_opa":0,"text":"\uE425","text_color":"#cccccc","border_side":255,"text_font":24}
 {"id":19,"obj":"obj","x":30,"y":0,"h":40,"w":420,"opacity":0,"swipe":1}
 
